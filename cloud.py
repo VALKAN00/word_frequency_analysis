@@ -8,7 +8,6 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 
-# Change this line in cloud.py
 with open("paragraphs.txt", "r") as file:
     text = file.read()
 
